@@ -54,31 +54,46 @@ My work covers the full experimental pipeline: robot and camera calibration, dat
 
 ## Experience
 
-<div class="entry">
-  <div class="entry__heading"><h3>Research Intern · AIR, Tsinghua University</h3><span>Jun–Sep 2026</span></div>
-  <p>Worked on VLA and world-action models for robot manipulation across data collection, training, inference, and real-robot evaluation. Integrated robot arms and a dexterous hand, including calibration and control interfaces. Built a Real2Sim2Real workflow for simulation rollouts, policy training, and transfer back to physical robots.</p>
+<div class="entry entry--with-logo">
+  <div class="entry__text">
+    <div class="entry__heading"><h3>Research Intern · AIR, Tsinghua University</h3><span>Jun–Sep 2026</span></div>
+    <p>Worked on VLA and world-action models for robot manipulation across data collection, training, inference, and real-robot evaluation. Integrated robot arms and a dexterous hand, including calibration and control interfaces. Built a Real2Sim2Real workflow for simulation rollouts, policy training, and transfer back to physical robots.</p>
+  </div>
+  <div class="entry__logo entry__logo--air"><img src="{{ '/images/organizations/air.png' | relative_url }}" alt="AIR, Tsinghua University logo" loading="lazy"></div>
 </div>
 
-<div class="entry">
-  <div class="entry__heading"><h3>Research Intern · Eastern Institute of Technology, Ningbo</h3><span>Jun–Sep 2025</span></div>
-  <p>Ran Franka manipulation experiments and reproduced <a href="https://nimolty.github.io/Seer/">Seer</a>, a predictive inverse-dynamics model, including its training and inference pipeline.</p>
+<div class="entry entry--with-logo">
+  <div class="entry__text">
+    <div class="entry__heading"><h3>Research Intern · Eastern Institute of Technology, Ningbo</h3><span>Jun–Sep 2025</span></div>
+    <p>Ran Franka manipulation experiments and reproduced <a href="https://nimolty.github.io/Seer/">Seer</a>, a predictive inverse-dynamics model, including its training and inference pipeline.</p>
+  </div>
+  <div class="entry__logo entry__logo--eit"><img src="{{ '/images/organizations/eit.png' | relative_url }}" alt="Eastern Institute of Technology, Ningbo logo" loading="lazy"></div>
 </div>
 
-<div class="entry">
-  <div class="entry__heading"><h3>Motion Control Engineer · Gaoqing Electromechanical</h3><span>Jan–Apr 2025</span></div>
-  <p>Developed a C++ SDK for robot walking speed and mode switching. Adapted ModelBasedFootstepPlanning to a 12-DoF biped, trained in simulation, and validated sim-to-sim and sim-to-real deployment with MuJoCo and RKNN.</p>
+<div class="entry entry--with-logo">
+  <div class="entry__text">
+    <div class="entry__heading"><h3>Motion Control Engineer · Gaoqing Electromechanical</h3><span>Jan–Apr 2025</span></div>
+    <p>Developed a C++ SDK for robot walking speed and mode switching. Adapted ModelBasedFootstepPlanning to a 12-DoF biped, trained in simulation, and validated sim-to-sim and sim-to-real deployment with MuJoCo and RKNN.</p>
+  </div>
+  <div class="entry__logo"><img src="{{ '/images/organizations/gao.png' | relative_url }}" alt="Gaoqing Electromechanical logo" loading="lazy"></div>
 </div>
 
 ## Education
 
-<div class="entry entry--compact">
-  <div class="entry__heading"><h3>University of Science and Technology of China</h3><span>2025–2028 (expected)</span></div>
-  <p>M.Eng., Electronic and Information Engineering</p>
+<div class="entry entry--compact entry--with-logo">
+  <div class="entry__text">
+    <div class="entry__heading"><h3>University of Science and Technology of China</h3><span>2025–2028 (expected)</span></div>
+    <p>M.Eng., Electronic and Information Engineering</p>
+  </div>
+  <div class="entry__logo entry__logo--seal"><img src="{{ '/images/organizations/ustc.jpg' | relative_url }}" alt="University of Science and Technology of China emblem" loading="lazy"></div>
 </div>
 
-<div class="entry entry--compact">
-  <div class="entry__heading"><h3>Hunan University</h3><span>2021–2025</span></div>
-  <p>B.Eng., Electronic and Information Engineering</p>
+<div class="entry entry--compact entry--with-logo">
+  <div class="entry__text">
+    <div class="entry__heading"><h3>Hunan University</h3><span>2021–2025</span></div>
+    <p>B.Eng., Electronic and Information Engineering</p>
+  </div>
+  <div class="entry__logo entry__logo--seal entry__logo--hnu"><img src="{{ '/images/organizations/hnu.png' | relative_url }}" alt="Hunan University emblem" loading="lazy"></div>
 </div>
 
 ## Selected engineering work
