@@ -4,6 +4,8 @@ A single-page academic website for [Fu Chen](https://dsdfasfaac.github.io/), ada
 
 All public content is in `_pages/about.md`. The page layout and styling are in `_layouts/home.html` and `assets/css/home.css`. Previous section and publication URLs redirect to the homepage.
 
+Publication thumbnails in `images/publications/` come from the corresponding [Zeva](https://air-embodied-brain.github.io/Zeva/), [Zeva-Ego](https://air-embodied-brain.github.io/Zeva-Ego/), and [Zetta](https://air-embodied-brain.github.io/zetta/) project pages.
+
 ## Local preview
 
 With Ruby and Bundler installed:

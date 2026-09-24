@@ -20,26 +20,35 @@ My work covers the full experimental pipeline: robot and camera calibration, dat
 
 ## Publications
 
-<div class="publication">
-  <div class="publication__heading"><span>2026</span><h3><a href="https://arxiv.org/abs/2608.30880">Zeva: In-Context Causal Learning for Generalizable Embodied Manipulation</a></h3></div>
-  <p class="publication__authors"><strong>Fu Chen*</strong>, Xin Ding*, Bingjia Huang, Xiangyu Li, Mingju Wang, Jiawei He, Kun Li, Wei Sun, Yunxin Liu, Hao Wu, Ting Cao · <em>Co-first author, listed first</em></p>
-  <p>Zeva encodes executed actions and observed state changes as causal interaction signals. A dual-timescale memory retrieves useful experience to adapt a frozen policy without gradient updates. It reached <strong>76.8% average success</strong> on RoboCasa365-Atomic5; in a separate repeated-attempt evaluation, cumulative success rose from <strong>26% on the first attempt to 73% within four attempts</strong>.</p>
-  <p class="publication__links"><a href="https://arxiv.org/abs/2608.30880">Paper</a><a href="https://air-embodied-brain.github.io/Zeva/">Project</a></p>
-</div>
+<article class="publication">
+  <div class="publication__text">
+    <div class="publication__heading"><span>2026</span><h3><a href="https://air-embodied-brain.github.io/Zeva/">Zeva: In-Context Causal Learning for Generalizable Embodied Manipulation</a></h3></div>
+    <p class="publication__authors"><strong>Fu Chen*</strong>, Xin Ding*, Bingjia Huang, Xiangyu Li, Mingju Wang, Jiawei He, Kun Li, Wei Sun, Yunxin Liu, Hao Wu, Ting Cao · <em>Co-first author, listed first</em></p>
+    <p>Zeva encodes executed actions and observed state changes as causal interaction signals. A dual-timescale memory retrieves useful experience to adapt a frozen policy without gradient updates. It reached <strong>76.8% average success</strong> on RoboCasa365-Atomic5; in a separate repeated-attempt evaluation, cumulative success rose from <strong>26% on the first attempt to 73% within four attempts</strong>.</p>
+    <p class="publication__links"><a href="https://air-embodied-brain.github.io/Zeva/">Project page →</a></p>
+  </div>
+  <a class="publication__image" href="https://air-embodied-brain.github.io/Zeva/" aria-label="View the Zeva project page"><img src="/images/publications/zeva.png" alt="Zeva overview: causal interaction extraction, memory, and manipulation results" width="2784" height="1766" loading="lazy" decoding="async"></a>
+</article>
 
-<div class="publication">
-  <div class="publication__heading"><span>2026</span><h3><a href="https://arxiv.org/abs/2609.24411">Zeva-Ego: Egocentric Mid-Training with In-Context Causal Learning for Robot Manipulation</a></h3></div>
-  <p class="publication__authors">Bingjia Huang*, Xin Ding, <strong>Fu Chen*</strong>, Kun Li, Wei Sun, Hao Wu, Yunxin Liu, Ting Cao · <em>Co-first author</em></p>
-  <p>Zeva-Ego turns egocentric video into action-centered supervision for VLA mid-training, then uses interaction feedback for parameter-free adaptation at deployment. Scaling to <strong>10,000 hours</strong> of video improved RoboTwin success from <strong>63.8% to 75.3%</strong>; repeated-attempt success rose from <strong>58% to 89%</strong>.</p>
-  <p class="publication__links"><a href="https://arxiv.org/abs/2609.24411">Paper</a><a href="https://air-embodied-brain.github.io/Zeva-Ego/">Project</a></p>
-</div>
+<article class="publication">
+  <div class="publication__text">
+    <div class="publication__heading"><span>2026</span><h3><a href="https://air-embodied-brain.github.io/Zeva-Ego/">Zeva-Ego: Egocentric Mid-Training with In-Context Causal Learning for Robot Manipulation</a></h3></div>
+    <p class="publication__authors">Bingjia Huang*, Xin Ding, <strong>Fu Chen*</strong>, Kun Li, Wei Sun, Hao Wu, Yunxin Liu, Ting Cao · <em>Co-first author</em></p>
+    <p>Zeva-Ego turns egocentric video into action-centered supervision for VLA mid-training, then uses interaction feedback for parameter-free adaptation at deployment. Scaling to <strong>10,000 hours</strong> of video improved RoboTwin success from <strong>63.8% to 75.3%</strong>; repeated-attempt success rose from <strong>58% to 89%</strong>.</p>
+    <p class="publication__links"><a href="https://air-embodied-brain.github.io/Zeva-Ego/">Project page →</a></p>
+  </div>
+  <a class="publication__image" href="https://air-embodied-brain.github.io/Zeva-Ego/" aria-label="View the Zeva-Ego project page"><img src="/images/publications/zeva-ego.png" alt="Zeva-Ego overview: egocentric data, VLA mid-training, and robot results" width="2555" height="1290" loading="lazy" decoding="async"></a>
+</article>
 
-<div class="publication">
-  <div class="publication__heading"><span>2026</span><h3><a href="https://arxiv.org/abs/2608.16590">Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence</a></h3></div>
-  <p class="publication__authors">Xin Ding, Liang Mi, Mingzhe Huang, Zixuan Wang, Chao Zhang, Zixu Hao, <strong>Fu Chen</strong>, Xiangyu Li, Yikai Zheng, Yaoyu Guo, Weijun Wang, Kun Li, Hao Wu, Yunxin Liu, Ting Cao</p>
-  <p>Zetta keeps a base policy frozen while runtime critics detect failures and recovery skills support continued execution. Rollout analysis and validation update those skills over time. The paper reports <strong>90.8% success on LIBERO-Pro</strong>, <strong>93.6% on RoboCasa</strong>, and an <strong>11.1× inference speedup</strong>. I worked on the base policy and implemented real-robot deployment.</p>
-  <p class="publication__links"><a href="https://arxiv.org/abs/2608.16590">Paper</a><a href="https://air-embodied-brain.github.io/zetta/">Project</a></p>
-</div>
+<article class="publication">
+  <div class="publication__text">
+    <div class="publication__heading"><span>2026</span><h3><a href="https://air-embodied-brain.github.io/zetta/">Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence</a></h3></div>
+    <p class="publication__authors">Xin Ding, Liang Mi, Mingzhe Huang, Zixuan Wang, Chao Zhang, Zixu Hao, <strong>Fu Chen</strong>, Xiangyu Li, Yikai Zheng, Yaoyu Guo, Weijun Wang, Kun Li, Hao Wu, Yunxin Liu, Ting Cao</p>
+    <p>Zetta keeps a base policy frozen while runtime critics detect failures and recovery skills support continued execution. Rollout analysis and validation update those skills over time. The paper reports <strong>90.8% success on LIBERO-Pro</strong>, <strong>93.6% on RoboCasa</strong>, and an <strong>11.1× inference speedup</strong>. I worked on the base policy and implemented real-robot deployment.</p>
+    <p class="publication__links"><a href="https://air-embodied-brain.github.io/zetta/">Project page →</a></p>
+  </div>
+  <a class="publication__image" href="https://air-embodied-brain.github.io/zetta/" aria-label="View the Zetta project page"><img src="/images/publications/zetta.png" alt="Zetta overview: closed-loop critics, recovery skills, and rollout results" width="6084" height="5124" loading="lazy" decoding="async"></a>
+</article>
 
 <p class="note">* Equal contribution, as indicated in the papers.</p>
 

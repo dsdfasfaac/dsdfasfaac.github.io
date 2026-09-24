@@ -29,8 +29,10 @@ a:hover, a:focus-visible { text-decoration: underline; }
   line-height: 1.35;
 }
 .content h2:first-of-type { margin-top: 36px; }
-.publication { padding: 15px 0 17px; border-bottom: 1px solid #e5e9ec; }
-.publication:last-of-type { border-bottom: 0; }
+.publication { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 24px; align-items: start; padding: 20px 0 23px; border-bottom: 1px solid #e5e9ec; }
+.publication__text { min-width: 0; }
+.publication__image { display: block; margin-top: 2px; }
+.publication__image img { display: block; width: 100%; height: auto; border: 1px solid #e5e9ec; }
 .publication__heading, .entry__heading { display: flex; align-items: baseline; justify-content: space-between; gap: 8px 18px; }
 .publication__heading > span, .entry__heading > span { flex: 0 0 auto; color: #697680; font-size: .83rem; }
 .publication__heading > h3 { order: -1; flex: 1; }
@@ -44,6 +46,10 @@ a:hover, a:focus-visible { text-decoration: underline; }
 .entry--compact { margin: 17px 0; }
 .skills { margin-bottom: 40px; }
 footer { margin: 52px 0 28px; padding-top: 15px; border-top: 1px solid #d9e0e5; color: #79858d; font-size: .82rem; }
+@media (max-width: 760px) {
+  .publication { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .publication__image { width: min(100%, 360px); }
+}
 @media (max-width: 640px) {
   body { font-size: 15px; }
   .site { width: min(100% - 32px, 820px); }
