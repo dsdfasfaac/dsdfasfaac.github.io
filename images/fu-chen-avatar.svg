@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Fu Chen monogram">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123b59"/>
+      <stop offset="1" stop-color="#0a7f91"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="64" fill="url(#background)"/>
+  <path d="M42 244h236" stroke="#83d6d8" stroke-width="3" opacity=".72"/>
+  <circle cx="266" cy="59" r="9" fill="#83d6d8"/>
+  <text x="160" y="196" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="124" letter-spacing="-10">FC</text>
+</svg>

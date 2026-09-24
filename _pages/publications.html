@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+<p>Research on interaction-driven adaptation, egocentric learning, and closed-loop embodied agents. An asterisk in the linked papers denotes equal contribution.</p>
+
+{% assign papers = site.publications | sort: "order" %}
+{% for paper in papers %}
+<article class="paper-row">
+  <div class="paper-row__meta">{{ paper.year }} · {{ paper.venue }} · {{ paper.contribution }}</div>
+  <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
+  <p class="paper-row__authors">{{ paper.authors | replace: 'Fu Chen', '<strong>Fu Chen</strong>' }}</p>
+  <p>{{ paper.excerpt }}</p>
+  <div class="paper-row__links">
+    <a href="{{ paper.paperurl }}">Paper</a>
+    <a href="{{ paper.projecturl }}">Project page</a>
+    <a href="{{ paper.url }}">Details</a>
+  </div>
+</article>
+{% endfor %}

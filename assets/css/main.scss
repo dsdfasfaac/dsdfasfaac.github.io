@@ -1,0 +1,137 @@
+---
+---
+
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
+
+@import
+    "vendor/breakpoint/breakpoint",
+
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv"
+;
+
+/* Content styles for Fu Chen's academic site. Theme layout remains Academic Pages. */
+.home-kicker {
+  color: var(--global-base-color);
+  font-size: .72em;
+  font-weight: 700;
+  letter-spacing: .14em;
+  margin-top: -.4em;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin: 1.6rem 0 2rem;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .9rem;
+  margin: 1.1rem 0 2rem;
+}
+
+.research-card {
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  padding: 1.05rem;
+  background: var(--global-bg-color);
+  box-shadow: 0 3px 14px rgba(12, 56, 75, .05);
+}
+
+.research-card__index,
+.paper-row__meta {
+  color: var(--global-base-color);
+  font-size: .74em;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.research-card h3 {
+  font-size: 1em;
+  line-height: 1.3;
+  margin: .65rem 0;
+}
+
+.research-card p {
+  font-size: .83em;
+  line-height: 1.5;
+  margin-bottom: .9rem;
+}
+
+.research-card a,
+.paper-row__links a,
+.section-more a {
+  color: var(--global-base-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.paper-row {
+  border-bottom: 1px solid var(--global-border-color);
+  padding: 1rem 0 1.2rem;
+}
+
+.paper-row h2,
+.paper-row h3 {
+  font-size: 1.04em;
+  line-height: 1.35;
+  margin: .35rem 0;
+}
+
+.paper-row p {
+  font-size: .85em;
+  line-height: 1.5;
+  margin: .5rem 0;
+}
+
+.paper-row__authors {
+  color: var(--global-text-color-light);
+}
+
+.paper-row__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .9rem;
+  font-size: .82em;
+  margin-top: .55rem;
+}
+
+.section-more {
+  margin-top: 1rem;
+}
+
+@media (max-width: 800px) {
+  .research-grid { grid-template-columns: 1fr; }
+}
