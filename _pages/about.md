@@ -88,9 +88,15 @@ My work covers the full experimental pipeline: robot and camera calibration, dat
 
 ## Selected engineering work
 
-<div class="entry">
+<div class="entry engineering">
   <div class="entry__heading"><h3>RoboMaster Yuelu Team · Control group leader and team captain</h3><span>2023</span></div>
-  <p>Led a <a href="https://gitee.com/hnuyuelurm/basic_framework">modular embedded control framework</a> with 400+ stars, recognized with the RoboMaster 2023 Open Source Award (third prize). Developed a wheel-legged balancing infantry control system using Kalman filtering and LQR; the team won first prize in the 2023 RoboMaster University League infantry robot competition.</p>
+  <div class="engineering__body">
+    <p>Led a <a href="https://gitee.com/hnuyuelurm/basic_framework">modular embedded control framework</a> with 400+ stars, recognized with the RoboMaster 2023 Open Source Award (third prize). Developed a wheel-legged balancing infantry control system using Kalman filtering and LQR; the team won first prize in the 2023 RoboMaster University League infantry robot competition.</p>
+    <figure class="engineering__figure">
+      <img src="{{ '/images/engineering/yuelu-robots.jpg' | relative_url }}" alt="RoboMaster Yuelu Team robots built with basic_framework" loading="lazy" width="1633" height="1059">
+      <figcaption>Yuelu Team robots built with basic_framework.</figcaption>
+    </figure>
+  </div>
 </div>
 
 ## Skills

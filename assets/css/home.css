@@ -53,11 +53,18 @@ a:hover, a:focus-visible { text-decoration: underline; }
 .entry__logo { grid-column:2; grid-row:1; width:220px; height:62px; }
 .entry__logo img { display:block; width:100%; height:100%; object-fit:contain; object-position:right center; }
 .entry__logo--hnu img { filter:brightness(0) saturate(100%) invert(19%) sepia(59%) saturate(1334%) hue-rotate(330deg) brightness(94%) contrast(93%); }
+.engineering__body { display:grid; grid-template-columns:minmax(0, 1fr) 280px; gap:24px; align-items:start; }
+.engineering__body > p { margin:0; }
+.engineering__figure { margin:0; }
+.engineering__figure img { display:block; width:100%; height:auto; border:1px solid #e5e9ec; }
+.engineering__figure figcaption { margin-top:5px; color:#697680; font-size:.78rem; line-height:1.4; }
 .skills { margin-bottom: 40px; }
 footer { margin: 52px 0 28px; padding-top: 15px; border-top: 1px solid #d9e0e5; color: #79858d; font-size: .82rem; }
 @media (max-width: 760px) {
   .publication { grid-template-columns: minmax(0, 1fr); gap: 10px; }
   .publication__image { width: min(100%, 360px); }
+  .engineering__body { grid-template-columns:1fr; gap:14px; }
+  .engineering__figure { width:min(100%, 360px); }
 }
 @media (max-width: 640px) {
   body { font-size: 15px; }

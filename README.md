@@ -8,6 +8,8 @@ Publication thumbnails in `images/publications/` come from the corresponding [Ze
 
 Organization wordmarks in `images/organizations/` come from the user-provided [AIR](https://air.tsinghua.edu.cn/en/) image and the official sites of [EIT Ningbo](https://www.eitech.edu.cn/en/595/list.htm), [Gaoqing Electromechanical](https://www.hightorque.cn/), [USTC](https://www.ustc.edu.cn/), and [Hunan University](https://xb.hnu.edu.cn/).
 
+The robot photograph in `images/engineering/` comes from the [HNU Yuelu RoboMaster team's basic_framework repository](https://github.com/HNUYueLuRM/basic_framework/blob/master/.assets/allrobot.jpg), where it is captioned as the robot lineup running the framework.
+
 ## Local preview
 
 With Ruby and Bundler installed:
